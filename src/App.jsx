@@ -6,6 +6,7 @@ import Mainpage from "./Pages/mainpage";
 import Reading from "./Pages/reading";
 import Report from "./Pages/reports";
 import Billing from "./Pages/billing";
+import Register from "./register";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="readings" element={<Reading />} />
           </Route>
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </div>
     </BrowserRouter>

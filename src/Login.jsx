@@ -47,19 +47,9 @@ export default function Login() {
                 </div>
               </div>
             </form>
-            {/* <div className="bg-muted relative hidden md:block">
-            <img
-              src={LoginImg}
-              alt="Image"
-              className="absolute bottom-0  h-full w-full object-cover  dark:brightness-[0.2] dark:grayscale"
-            />
-          </div> */}
+           
           </CardContent>
         </Card>
-        {/* <div className="text-muted-foreground *:[a]:hover:text-primary text-center text-xs text-balance *:[a]:underline *:[a]:underline-offset-4">
-        By clicking continue, you agree to our <a href="#">Terms of Service</a>{" "}
-        and <a href="#">Privacy Policy</a>.
-      </div> */}
       </div>
     </div>
   );
